@@ -1,0 +1,4 @@
+<launch>
+  <node name="ros2cv" pkg="ros_topic" type="ros2cv.py" output="screen"/>
+  <node name="imagePub" pkg="ros_topic" type="imagePub.py" output="screen"/>
+</launch>
